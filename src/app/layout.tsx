@@ -3,6 +3,7 @@ import { NextDevtoolsProvider } from '@next-devtools/core'
 import { type Metadata } from 'next'
 import Header from '@/components/Header'
 import './globals.css'
+import "swagger-ui-react/swagger-ui.css"
 
 const inter = Inter({ subsets: ['latin'] })
 
